@@ -1,0 +1,127 @@
+@import url('../font/Roboto-Regular.ttf?family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: lightblue;
+  font: normal 1em roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pizza {
+  position: relative;
+  width: 550px;
+}
+.circulo {
+  background: url('../images/circuloFundo.png');
+}
+.links {
+  height: 550px;
+}
+.circuloMenor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.links a {
+  position: absolute;
+  /* background: rgba(0, 0, 0, 0.5); */
+  width: 80px;
+  height: 80px;
+}
+.links a div {
+  position: absolute;
+  pointer-events: none;
+}
+.slice-1 {
+  top: 30px;
+  right: 150px;
+}
+.slice-2 {
+  top: 150px;
+  right: 30px;
+}
+.slice-3 {
+  right: 30px;
+  bottom: 150px;
+}
+.slice-4 {
+  right: 150px;
+  bottom: 30px;
+}
+.slice-5 {
+  left: 150px;
+  bottom: 30px;
+}
+.slice-6 {
+  left: 30px;
+  bottom: 150px;
+}
+.slice-7 {
+  top: 150px;
+  left: 30px;
+}
+.slice-8 {
+  top: 30px;
+  left: 150px;
+}
+.slice-1 div {
+  background: url('../images/pizza1.png');
+  width: 195px;
+  height: 156px;
+  top: -30px;
+  left: -45px;
+}
+.slice-2 div {
+  background: url('../images/pizza2.png');
+  width: 156px;
+  height: 195px;
+  top: -70px;
+  left: -45px;
+}
+.slice-3 div {
+  background: url('../images/pizza3.png');
+  width: 156px;
+  height: 195px;
+  right: -30px;
+  bottom: -70px;
+}
+.slice-4 div {
+  background: url('../images/pizza4.png');
+  width: 195px;
+  height: 156px;
+  right: -70px;
+  bottom: -30px;
+}
+.slice-5 div {
+  background: url('../images/pizza5.png');
+  width: 195px;
+  height: 156px;
+  left: -70px;
+  bottom: -30px;
+}
+.slice-6 div {
+  background: url('../images/pizza6.png');
+  width: 156px;
+  height: 195px;
+  left: -30px;
+  bottom: -70px;
+}
+.slice-7 div {
+  background: url('../images/pizza7.png');
+  width: 156px;
+  height: 195px;
+  top: -70px;
+  left: -30px;
+}
+.slice-8 div {
+  background: url('../images/pizza8.png');
+  width: 195px;
+  height: 156px;
+  top: -30px;
+  left: -70px;
+}
